@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#D10024">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>قالب فروشگاهیِ پاور</title>
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css" />
+	<!-- Slick -->
+	<link type="text/css" rel="stylesheet" href="slick/slick.css" />
+	<link type="text/css" rel="stylesheet" href="slick/slick-theme.css" />
+
+	<!-- nouislider -->
+	<link type="text/css" rel="stylesheet" href="css/nouislider.min.css" />
+
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="fontawesome/css/all.css">
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+	<link type="text/css" rel="stylesheet" href="css/mediaQuery.css" />
+
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+</head>
+
+<body>
+	<!-- HEADER -->
+	<header>
+		<!-- TOP HEADER -->
+		<div id="top-header">
+			<div class="container d-flex flex-wrap flex-column flex-md-row justify-content-between">
+				<ul class="header-links">
+					<li><a href="#"><i class="fa fa-phone"></i> +021-95-51-84</a></li>
+					<li><a href="#"><i class="fa fa-envelope"></i> email@email.com</a></li>
+				</ul>
+				<ul class="header-links me-3">
+					<li><a href="#"><i class="fa fa-user"></i> حساب کاربری</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- /TOP HEADER -->
+
+		<!-- MAIN HEADER -->
+		<div id="header">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<!-- LOGO -->
+					<div class="col-md-3">
+						<div class="header-logo">
+							<a href="#" class="logo">
+								<img src="./img/logo.png" alt="">
+							</a>
+						</div>
+					</div>
+					<!-- /LOGO -->
+
+					<!-- SEARCH BAR -->
+					<div class="col-md-6">
+						<div class="header-search">
+							<form>
+								<select class="input-select">
+									<option value="0">همه دسته ها</option>
+									<option value="1">دسته‌بندی یک</option>
+									<option value="1">دسته‌بندی دو</option>
+								</select>
+								<input class="input" placeholder="جستجو کنید">
+								<button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></i></button>
+							</form>
+						</div>
+					</div>
+					<!-- /SEARCH BAR -->
+
+					<!-- ACCOUNT -->
+					<div class="col-md-3 clearfix">
+						<div class="header-ctn d-flex flex-row justify-content-around align-items-end">
+							<!-- Wishlist -->
+							<div>
+								<a href="#">
+									<i class="fa-duotone fa-heart-circle-check"></i>
+									<span>مورد علاقه‌ها</span>
+									<div class="qty">2</div>
+								</a>
+							</div>
+							<!-- /Wishlist -->
+
+							<!-- Cart -->
+							<div>
+								<a role="button" class="dropdown-toggle pointer-event" data-bs-toggle="dropdown"
+									aria-expanded="false">
+									<i class="fa-duotone fa-cart-shopping"></i>
+									<span>سبد خرید</span>
+									<div class="qty">3</div>
+								</a>
+
+
+								<ul class="dropdown-menu cart-dropdown">
+									<li class="cart-list">
+										<a class="" href="#">
+											<div class="product-widget">
+												<div class="product-img">
+													<img src="./img/product01.png" alt="">
+												</div>
+												<div class="product-body text-right">
+													<h3 class="product-name">
+														<a href="#">
+															لپ تاپ 15.6 اینچی ایسوس مدل ROG Strix G15 G513RC-HN101
+														</a>
+													</h3>
+													<h4 class="product-price text-right">
+														10.000.000 تومان
+														<span class="qty">1x</span>
+													</h4>
+												</div>
+												<button class="delete">
+													<i class="fa-duotone fa-circle-xmark"></i>
+												</button>
+											</div>
+										</a>
+									</li>
+									<li>
+										<hr class="dropdown-divider">
+									</li>
+									<li class="cart-list">
+										<a class="" href="#">
+											<div class="product-widget">
+												<div class="product-img">
+													<img src="./img/product01.png" alt="">
+												</div>
+												<div class="product-body text-right">
+													<h3 class="product-name">
+														<a href="#">
+															لپ تاپ 15.6 اینچی ایسوس مدل ROG Strix G15 G513RC-HN101
+														</a>
+													</h3>
+													<h4 class="product-price text-right">
+														10.000.000 تومان
+														<span class="qty">1x</span>
+													</h4>
+												</div>
+												<button class="delete">
+													<i class="fa-duotone fa-circle-xmark"></i>
+												</button>
+											</div>
+										</a>
+									</li>
+
+									<!-- <li><hr class="dropdown-divider"></li> -->
+									<li>
+										<div class="cart-summary">
+											<small>3 کالا</small>
+											<h5>
+												مجموع: 10.000.000 تومان
+											</h5>
+										</div>
+										<div class="cart-btns d-flex">
+											<a href="cart.html">مشاهده سبد خرید</a>
+											<a href="checkout.html">پرداخت <i class="fa-duotone fa-circle-arrow-left"></i></a>
+										</div>
+									</li>
+								</ul>
+							</div>
+
+							<!-- Menu Toogle -->
+							<div class="menu-toggle">
+								<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+									data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i
+										class="fa-duotone fa-bars"></i></button>
+							</div>
+
+							<!-- /Menu Toogle -->
+						</div>
+					</div>
+					<!-- /ACCOUNT -->
+				</div>
+				<!-- row -->
+			</div>
+			<!-- container -->
+		</div>
+		<!-- /MAIN HEADER -->
+	</header>
+	<!-- /HEADER -->
+
+	<!-- NAVIGATION -->
+	<nav id="navigation">
+		<!-- container -->
+		<div class="container">
+			<!-- responsive-nav -->
+			<div id="responsive-nav">
+				<!-- NAV -->
+				<ul class="main-nav nav navbar-nav d-flex flex-column flex-md-row justify-content-around py-3">
+					<!-- <li class="active"><a href="#">خانه</a></li> -->
+					<li>
+						<a href="#" class="sub-menu-parent">پیشنهاد های ویژه <i
+								class="text-danger fa-sharp fa-solid fa-caret-down"></i></a>
+
+						<div class="sub-menu">
+							<div class="d-flex align-items-start ">
+								<div class=" nav flex-column nav-pills py-3 pe-4 me-0" id="v-pills-tab" role="tablist"
+									aria-orientation="vertical">
+									<button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
+										data-bs-target="#v-pills-home" type="button" role="tab"
+										aria-controls="v-pills-home" aria-selected="true">منوی اول</button>
+									<button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
+										data-bs-target="#v-pills-profile" type="button" role="tab"
+										aria-controls="v-pills-profile" aria-selected="false">منوی دوم</button>
+									<button class="nav-link" id="v-pills-disabled-tab" data-bs-toggle="pill"
+										data-bs-target="#v-pills-disabled" type="button" role="tab"
+										aria-controls="v-pills-disabled" aria-selected="false" disabled>غیرفعال</button>
+									<button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill"
+										data-bs-target="#v-pills-messages" type="button" role="tab"
+										aria-controls="v-pills-messages" aria-selected="false">منوی سوم</button>
+									<button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
+										data-bs-target="#v-pills-settings" type="button" role="tab"
+										aria-controls="v-pills-settings" aria-selected="false">منوی چهارم</button>
+								</div>
+
+								<div class=" tab-content py-3 pe-4 me-0" id="v-pills-tabContent">
+									<div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+										aria-labelledby="v-pills-home-tab" tabindex="0">
+
+										<div class="d-flex flex-wrap justify-content-between sub-mega-menu">
+											<div class="floating-div pane-1 me-5">
+												<h3 class="sub-mega-menu-heading">لوازم جانبی کامپیوتر</h3>
+												<ul>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+												</ul>
+											</div>
+											<div class="floating-div pane-1 me-5">
+												<h3 class="sub-mega-menu-heading">لوازم جانبی لپ تاپ</h3>
+												<ul>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+												</ul>
+											</div>
+											<div class="floating-div pane-1 me-5">
+												<h3 class="sub-mega-menu-heading">کنسول بازی</h3>
+												<ul>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+												</ul>
+											</div>
+
+											<!-- <img style="width: 20%;" width="" src="./img/product04.png" alt="">  -->
+										</div>
+
+									</div>
+									<div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+										aria-labelledby="v-pills-profile-tab" tabindex="0">
+										<div class="d-flex flex-wrap justify-content-between sub-mega-menu">
+											<div class="floating-div pane-1 me-5">
+												<h3 class="sub-mega-menu-heading">لوازم جانبی کامپیوتر</h3>
+												<ul>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+												</ul>
+											</div>
+											<div class="floating-div pane-1 me-5">
+												<h3 class="sub-mega-menu-heading">لوازم جانبی لپ تاپ</h3>
+												<ul>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+												</ul>
+											</div>
+											<div class="floating-div pane-1 me-5">
+												<h3 class="sub-mega-menu-heading">کنسول بازی</h3>
+												<ul>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+												</ul>
+											</div>
+
+											<!-- <img style="width: 20%;" width="" src="./img/product04.png" alt="">  -->
+										</div>
+									</div>
+									<div class="tab-pane fade" id="v-pills-disabled" role="tabpanel"
+										aria-labelledby="v-pills-disabled-tab" tabindex="0">
+										<div class="d-flex flex-wrap justify-content-between sub-mega-menu">
+											<div class="floating-div pane-1 me-5">
+												<h3 class="sub-mega-menu-heading">لوازم جانبی کامپیوتر</h3>
+												<ul>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+												</ul>
+											</div>
+											<div class="floating-div pane-1 me-5">
+												<h3 class="sub-mega-menu-heading">لوازم جانبی لپ تاپ</h3>
+												<ul>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+												</ul>
+											</div>
+											<div class="floating-div pane-1 me-5">
+												<h3 class="sub-mega-menu-heading">کنسول بازی</h3>
+												<ul>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+												</ul>
+											</div>
+
+											<!-- <img style="width: 20%;" width="" src="./img/product04.png" alt="">  -->
+										</div>
+									</div>
+									<div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+										aria-labelledby="v-pills-messages-tab" tabindex="0">
+										<div class="d-flex flex-wrap justify-content-between sub-mega-menu">
+											<div class="floating-div pane-1 me-5">
+												<h3 class="sub-mega-menu-heading">لوازم جانبی کامپیوتر</h3>
+												<ul>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+												</ul>
+											</div>
+											<div class="floating-div pane-1 me-5">
+												<h3 class="sub-mega-menu-heading">لوازم جانبی لپ تاپ</h3>
+												<ul>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+												</ul>
+											</div>
+											<div class="floating-div pane-1 me-5">
+												<h3 class="sub-mega-menu-heading">کنسول بازی</h3>
+												<ul>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+												</ul>
+											</div>
+
+											<!-- <img style="width: 20%;" width="" src="./img/product04.png" alt="">  -->
+										</div>
+									</div>
+									<div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+										aria-labelledby="v-pills-settings-tab" tabindex="0">
+										<div class="d-flex flex-wrap justify-content-between sub-mega-menu">
+											<div class="floating-div pane-1 me-5">
+												<h3 class="sub-mega-menu-heading">لوازم جانبی کامپیوتر</h3>
+												<ul>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+												</ul>
+											</div>
+											<div class="floating-div pane-1 me-5">
+												<h3 class="sub-mega-menu-heading">لوازم جانبی لپ تاپ</h3>
+												<ul>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+												</ul>
+											</div>
+											<div class="floating-div pane-1 me-5">
+												<h3 class="sub-mega-menu-heading">کنسول بازی</h3>
+												<ul>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+													<li>لوازم جانبی#</li>
+												</ul>
+											</div>
+
+											<!-- <img style="width: 20%;" width="" src="./img/product04.png" alt="">  -->
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+					</li>
+					<li><a href="#">دسته‌بندی</a></li>
+					<li><a href="#">لپ تاپ</a></li>
+					<li><a href="#">موبایل</a></li>
+					<li><a href="#">دوربین</a></li>
+					<li><a href="#">لوازم جانبی</a></li>
+				</ul>
+				<!-- /NAV -->
+			</div>
+			<!-- /responsive-nav -->
+		</div>
+		<!-- /container -->
+	</nav>
+	<!-- /NAVIGATION -->
+	<!-- SIDE-NAVIGATION -->
+	<div class="offcanvas offcanvas-end side-nav" tabindex="-1" id="offcanvasRight"
+		aria-labelledby="offcanvasRightLabel">
+		<div class="offcanvas-header">
+			<h5 class="offcanvas-title" id="offcanvasRightLabel"><img src="./img/logo.png" alt=""></h5>
+			<span class="text-white dismiss-btn" data-bs-dismiss="offcanvas"><i
+					class="fa-duotone fa-circle-xmark"></i></span>
+		</div>
+		<div class="offcanvas-body">
+			<ul>
+				<li class="sidebar-links"><a href="#">خانه</a></li>
+				<li class="sidebar-links parent-submenu">
+					<a href="#" class="d-flex justify-content-between">
+						دسته‌بندی
+					</a>
+					<ul class="sidenav-submenu-level-1 submenu">
+						<li><a href="#">زیرمنو یک</a></li>
+						<li><a href="#">زیرمنو یک</a></li>
+						<li><a href="#">زیرمنو یک</a></li>
+						<li class="sub-children">
+							<a href="#" class="d-flex justify-content-between">زیرمنو یک
+							</a>
+
+							<ul class="sidenav-submenu-level-2 submenu">
+								<li><a href="#">زیرمنو دوم</a></li>
+								<li><a href="#">زیرمنو دوم</a></li>
+								<li><a href="#">زیرمنو دوم</a></li>
+								<li><a href="#">زیرمنو دوم</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="sidebar-links"><a href="#">دوربین</a></li>
+				<li class="sidebar-links"><a href="#">لپتاپ</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- /SIDE-NAVIGATION -->
+
+
+	<div class="wrap-content">
+		<!-- BREADCRUMB -->
+		<div id="breadcrumb" class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<div class="col-md-12">
+						<!-- <h3 class="breadcrumb-header">Regular Page</h3> -->
+						<ul class="breadcrumb-tree">
+							<li><a href="#">خانه</a></li>
+							<li class="active">سبدخرید</li>
+						</ul>
+					</div>
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /BREADCRUMB -->
+		<!-- SECTION -->
+		<div class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row cart-table table-responsive">
+					<table class="table ">
+						<thead>
+							<tr>
+								<th>#</th>
+								<th>تصویر</th>
+								<th>نام کلا</th>
+								<th>قیمت</th>
+								<th>تعداد</th>
+								<th>حذف</th>
+							</tr>
+						</thead>
+						<tbody>
+
+							<tr class="align-baseline ">
+								<td class="no-wrap">1</td>
+								<td class="no-wrap"><a href="#"><img width="100" src="./img/product03.png" alt=""></a></td>
+								<td class="no-wrap"><a href="#">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</a></td>
+								<td class="no-wrap">
+									<div class="text-danger  product-price d-flex flex-column flex-wrap align-items-center">
+										35،000،000 تومان
+										<del class="text-black-50 product-old-price">
+											38،000،000 تومان
+										</del>
+									</div>
+								</td>
+								<td class="no-wrap">
+									<input class="cart-input-number" type="number" name="" id="" min="1" max="10"
+										value="1">
+								</td>
+								<td class="no-wrap">
+									<a href="#"><i class="text-danger fa-duotone fa-trash"></i></a>
+								</td>
+							</tr>
+							<tr class="align-baseline ">
+								<td class="no-wrap">1</td>
+								<td class="no-wrap"><a href="#"><img width="100" src="./img/product03.png" alt=""></a></td>
+								<td class="no-wrap"><a href="#">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</a></td>
+								<td class="no-wrap">
+									<div class="text-danger  product-price d-flex flex-column flex-wrap align-items-center">
+										35،000،000 تومان
+										<del class="text-black-50 product-old-price">
+											38،000،000 تومان
+										</del>
+									</div>
+								</td>
+								<td class="no-wrap">
+									<input class="cart-input-number" type="number" name="" id="" min="1" max="10"
+										value="1">
+								</td>
+								<td class="no-wrap">
+									<a href="#"><i class="text-danger fa-duotone fa-trash"></i></a>
+								</td>
+							</tr>
+							<tr class="align-baseline ">
+								<td class="no-wrap">1</td>
+								<td class="no-wrap"><a href="#"><img width="100" src="./img/product03.png" alt=""></a></td>
+								<td class="no-wrap"><a href="#">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</a></td>
+								<td class="no-wrap">
+									<div class="text-danger  product-price d-flex flex-column flex-wrap align-items-center">
+										35،000،000 تومان
+										<del class="text-black-50 product-old-price">
+											38،000،000 تومان
+										</del>
+									</div>
+								</td>
+								<td class="no-wrap">
+									<input class="cart-input-number" type="number" name="" id="" min="1" max="10"
+										value="1">
+								</td>
+								<td class="no-wrap">
+									<a href="#"><i class="text-danger fa-duotone fa-trash"></i></a>
+								</td>
+							</tr>
+						
+						</tbody>
+					</table>
+					<div class="cart-page-btns d-flex justify-content-center">
+						<a href="store.html">ادامه خرید</a>
+						<a href="checkout.html">پرداخت<i class="me-2 fa-duotone fa-circle-arrow-left"></i></a>
+					</div>
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /SECTION -->
+		<!-- NEWSLETTER -->
+		<div id="newsletter" class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<div class="col-md-12">
+						<div class="newsletter">
+							<p>عضویت در <strong>خبرنامه</strong></p>
+							<form class="d-flex">
+								<input class="input" type="email" placeholder="ایمیل خود را وارد کنید">
+								<button class="newsletter-btn"><i class="fa-solid fa-envelope"></i> عضویت</button>
+							</form>
+							<ul class="newsletter-follow">
+								<li>
+									<a href="#"><i class="fa-brands fa-telegram"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa-brands fa-linkedin"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa-brands fa-twitter"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa-brands fa-instagram"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa-brands fa-pinterest"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /NEWSLETTER -->
+		<!-- FOOTER -->
+		<footer id="footer">
+			<!-- top footer -->
+			<div class="section">
+				<!-- container -->
+				<div class="container">
+					<!-- row -->
+					<div class="row">
+						<div class="col-md-3 col-xs-6">
+							<div class="footer">
+								<h3 class="footer-title">درباره ما</h3>
+								<p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+									گرافیک
+									است.</p>
+								<ul class="footer-links">
+									<li><a href="#" class="text-decoration-none"><i
+												class="ms-2 fa-duotone fa-location-dot"></i>ایران-تهران-میدان آزادی</a>
+									</li>
+									<li><a href="#" class="text-decoration-none"><i
+												class="ms-2 fa-duotone fa-phone"></i>+021-12345678</a></li>
+									<li><a href="#" class="text-decoration-none"><i
+												class="ms-2 fa-duotone fa-envelope"></i>email@email.com</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-xs-6">
+							<div class="footer">
+								<h3 class="footer-title">دسته‌بندی ها</h3>
+								<ul class="footer-links">
+									<li><a href="#" class="text-decoration-none">فروش ویژه</a></li>
+									<li><a href="#" class="text-decoration-none">لپتاپ</a></li>
+									<li><a href="#" class="text-decoration-none">موبایل</a></li>
+									<li><a href="#" class="text-decoration-none">دوربین</a></li>
+									<li><a href="#" class="text-decoration-none">لوازم جانبی</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<!-- <div class="clearfix visible-xs"></div> -->
+
+						<div class="col-md-3 col-xs-6">
+							<div class="footer">
+								<h3 class="footer-title">اطلاعات</h3>
+								<ul class="footer-links">
+									<li><a href="#" class="text-decoration-none">درباره ما</a></li>
+									<li><a href="#" class="text-decoration-none">ارتباط باما</a></li>
+									<li><a href="#" class="text-decoration-none">قوانین</a></li>
+									<li><a href="#" class="text-decoration-none">سفارش و مرجوعی</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-xs-6">
+							<div class="footer">
+								<h3 class="footer-title">سرویس ها</h3>
+								<ul class="footer-links">
+									<li><a href="#" class="text-decoration-none">حساب کاربری</a></li>
+									<li><a href="#" class="text-decoration-none">سبد خرید</a></li>
+									<li><a href="#" class="text-decoration-none">لیست مورد علاقه</a></li>
+									<li><a href="#" class="text-decoration-none">پیگیری سفارشات</a></li>
+									<li><a href="#" class="text-decoration-none">راهنما</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- /row -->
+				</div>
+				<!-- /container -->
+			</div>
+			<!-- /top footer -->
+
+			<!-- bottom footer -->
+			<div id="bottom-footer" class="section">
+				<div class="container">
+					<!-- row -->
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<ul class="footer-payments ">
+								<li><a href="#" class="text-white"><i class="fa-brands fa-cc-visa"></i></a></li>
+								<li><a href="#" class="text-white"><i class="fa fa-credit-card"></i></a></li>
+								<li><a href="#" class="text-white"><i class="fa-brands fa-cc-paypal"></i></a></li>
+								<li><a href="#" class="text-white"><i class="fa-brands fa-cc-mastercard"></i></a></li>
+								<li><a href="#" class="text-white"><i class="fa-brands fa-cc-discover"></i></a></li>
+								<li><a href="#" class="text-white"><i class="fa-brands fa-cc-amex"></i></a></li>
+							</ul>
+							<span class="copyright ">
+								
+								کپی رایت &copy;
+								<script>
+									document.write(new Date().getFullYear());
+								</script>
+								تمامی حقوق محفوظ است | ساخته شده با
+								<i class="fa-regular fa-heart"></i>
+								توسط
+								<a href="https://liontheme.ir" class="text-white" target="_blank">
+									لیون تم
+								</a>
+								
+							</span>
+						</div>
+					</div>
+					<!-- /row -->
+				</div>
+				<!-- /container -->
+			</div>
+			<!-- /bottom footer -->
+		</footer>
+		<!-- /FOOTER -->
+	</div>
+
+	<!-- jQuery Plugins -->
+	<script src="js/jquery.min.js"></script>
+	<script src="bootstrap-5.2.3-dist/js/bootstrap.bundle.js"></script>
+	<!-- <script src="js/slick.min.js"></script> -->
+	<script src="slick/slick.min.js"></script>
+	<script src="js/nouislider.min.js"></script>
+	<script src="js/jquery.zoom.min.js"></script>
+	<script src="js/main.js"></script>
+
+
+
+</body>
+
+</html>
